@@ -1,4 +1,5 @@
 set feedback off
+set echo off
 PROMPT
 PROMPT Table Comments:
 select atc.comments
