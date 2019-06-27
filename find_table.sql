@@ -1,3 +1,3 @@
-select table_name, owner from all_tables 
-where table_name like '%'||upper('&Table_name'||'%')
+select table_name, owner from dba_tables 
+where table_name like '%'||upper('&1'||'%')
 /
